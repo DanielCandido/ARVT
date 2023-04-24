@@ -1,0 +1,34 @@
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.bg-header {
+    width: 600px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.contact {
+    background-color: #21A179;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.contact:hover {
+    color: #ffffff;
+}
+
+.section-bg {
+    background-color: #21A179;
+}
