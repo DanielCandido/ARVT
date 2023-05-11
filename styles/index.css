@@ -1,3 +1,8 @@
+:root {
+    --primary: #147190;
+    --secondary: #063c4e;
+}
+
 .logo {
     width: 100px;
     height: auto;
@@ -35,4 +40,24 @@
 
 .w-webflow-badge {
     display: none !important;
+}
+
+.bg-work {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--primary);
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary);
 }
