@@ -61,3 +61,8 @@
     text-decoration: none;
     color: var(--primary);
 }
+
+.section-subheading p {
+    text-align: justify;
+    text-justify: inter-word;
+}
